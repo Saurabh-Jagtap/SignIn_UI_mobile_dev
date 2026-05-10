@@ -1,6 +1,27 @@
-# Welcome to your Expo app 👋
+# 📱 Telecare AI - Login Interface  
+A beautiful, modern, and responsive Sign-In screen built with React Native and Expo. This project focuses on high-fidelity UI reproduction, smooth focus states, and cross-platform compatibility.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<img width="300" alt="signinUI_assign" src="https://github.com/user-attachments/assets/f808a807-7c77-4766-82cd-6b2dbc0a1652" />
+
+# ✨ Features
+**Modern UI/UX:** Clean aesthetic inspired by modern healthcare AI applications.
+
+**Dynamic Focus States:** Custom input "glow" effects and border transitions using React state.
+
+**Responsive Layout:** Built with Flexbox to ensure it looks great on both iOS and Android.
+
+**Safe Area Integration:** Handles notches and system bars gracefully using react-native-safe-area-context.
+
+**Social Auth Ready:** Styled components for Google, Facebook, and Instagram integration.
+
+**Keyboard Handling:** Uses Keyboard.dismiss logic for a seamless mobile experience.
+
+# 🛠️ Tech Stack
+**Framework:** Expo (React Native)
+
+**Icons:** Expo Vector Icons (Ionicons)
+
+**Language:** TypeScript
 
 ## Get started
 
@@ -34,6 +55,28 @@ npm run reset-project
 ```
 
 This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+
+## 📂 Project Structure
+```bash
+├── app/
+│   ├── _layout.tsx      # Main layout wrapper
+│   └── index.tsx        # Login screen component
+├── assets/
+│   └── images/          # Local logo and social icon assets
+└── package.json
+```
+
+## 🧠 What I Learned
+**Asset Management:** How to handle local images using the require() syntax in React Native.
+
+**Stateful Styling:** Using onFocus and onBlur to trigger "glow" effects on inputs.
+
+**Flexbox Mastery:** Deep dive into flexDirection, justifyContent, and alignItems for complex layouts.
+
+
+## 📬 Contact
+Saurabh Jagtap - https://x.com/SaurabhJag004 - saurabhjagtap773@gmail.com
+
 
 ## Learn more
 
